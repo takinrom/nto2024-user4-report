@@ -185,7 +185,9 @@ for jp in range(len(junk)):
 Пробуем path traversal: `http://192.168.12.10:5001/download?file_type=../../../../etc/secret`, получаем файл `secret` c флагом.
 
 ## Flag
-`nto{P6t9_T77v6RsA1}`# pwn1 - 10 очков
+`nto{P6t9_T77v6RsA1}`
+
+# pwn1 - 10 очков
 
 Для решения необходимо вызвать функцию win().
 ![](pwn1_pics/1.png)
